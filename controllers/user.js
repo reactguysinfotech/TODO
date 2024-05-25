@@ -50,7 +50,6 @@ export const registerUser = async (req, res, next) => {
   } catch (error) {
     next(error);
   }
-  y;
 };
 
 export const getMyProfile = (req, res) => {
